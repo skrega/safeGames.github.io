@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafGames</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-left flex-center">
+                    <button class="menu-btn">
+                        <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80">
+                            <path class="line top"
+                                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                            <path class="line middle" d="m 30,50 h 40" />
+                            <path class="line bottom"
+                                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="logo">
+                        <picture class="logo-image">
+                            <source srcset="images/logo-mobile.png" media="(max-width: 1024px)">
+                            <img src="images/logo.png" alt="SafGames"
+                                srcset="images/logo@2x.png 2x, images/logo@3x.png 3x">
+                        </picture>
+                    </a>
+                </div>
+                <div class="navigation">
+                    <div class="navigation-inner flex-center">
+                        <ul class="menu flex-center">
+                            <li class="menu-list">
+                                <a href="shop-skins.html" class="menu-link">Магазин</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#" class="menu-link">Продать</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="FAQ.html" class="menu-link">FAQ</a>
+                            </li>
+                        </ul>
+                        <div class="switcher-lang">
+                            <img src="images/lang-ru.svg" alt="">
+                            <div class="lang-drop">
+                                <a href="#" class="lang-drop-link">
+                                    <img src="images/lang-ru.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#login-form" class="popup-with-form header-login login-btn">Войти</a>
+                    <a href="account-steam.html" class="header-login login-whithSteam flex-center">
+                        <img src="images/steam-logo.png" alt="steam">
+                        <span>Войти через steam</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-inner">
+                <div class="main-content">
+                    <div class="main-suptitle supheading">
+                        Продавай и покупай
+                    </div>
+                    <h1 class="main-title title">
+                        Скины или целые аккаунты
+                    </h1>
+                    <p class="text main-text">
+                        Безопасность сделок обеспечивает встроенный гарант сервис
+                        Моментальный вывод средств с минимальной комиссией
+                    </p>
+                </div>
+                <a href="#register-form" class="main-link select-btn popup-with-form">
+                    Начать
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="benifits">
+        <div class="container">
+            <div class="benifits-heading heading">
+                У нас самые низкие Комиссии
+            </div>
+            <div class="benifits-text benifits-text__top text">
+                Мы напрямую сотрудничаем с банком. И разработали уникальный банковский продук позволяющий избавиться от
+                большинства
+                комиссий
+            </div>
+        </div>
+        <div class="container container__custom">
+            <div class="benifits-inner">
+                <div class="benifits-left">
+                    <img src="images/mag-right.png" class="mag-left" alt="">
+                    <div class="benifits-col_left">
+                        <img src="images/magic-shape-left.png" class="magic-shape magic-shape_left" alt="">
+                        <div class="benifits-content_left">
+                            <div class="benifits-col_left_top">
+                                <div class="benifits-content__text">
+                                    Покупка от 7%
+                                </div>
+                                <svg width="46" height="132" viewBox="0 0 46 132" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f)">
+                                        <circle cx="17.6074" cy="17.4349" r="5"
+                                            transform="rotate(-4.53763 17.6074 17.4349)" fill="#98DCF4" />
+                                    </g>
+                                    <circle cx="17.6076" cy="17.4347" r="4" transform="rotate(-4.53763 17.6076 17.4347)"
+                                        fill="#5383FB" />
+                                    <g filter="url(#filter1_f)">
+                                        <circle cx="17.6078" cy="17.4348" r="7.5"
+                                            transform="rotate(-4.53763 17.6078 17.4348)" stroke="white" />
+                                    </g>
+                                    <circle cx="17.6078" cy="17.4348" r="7.75"
+                                        transform="rotate(-4.53763 17.6078 17.4348)" stroke="#5383FB"
+                                        stroke-width="0.5" />
+                                    <line x1="19.9899" y1="26.0509" x2="45.2258" y2="129.044" stroke="#5383FB"
+                                        stroke-width="0.5" />
+                                    <defs>
+                                        <filter id="filter0_f" x="0.227539" y="0.0551758" width="34.7598"
+                                            height="34.7598" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                        </filter>
+                                        <filter id="filter1_f" x="5" y="4.82715" width="25.2157" height="25.2157"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="benifits-col_left_right">
+                                <div class="benifits-content__text">
+                                    Продажа от 7%
+                                </div>
+                                <svg width="50" height="94" viewBox="0 0 50 94" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f)">
+                                        <circle cx="33.6074" cy="17" r="5" transform="rotate(-4.53763 17.6074 17.4349)"
+                                            fill="#98DCF4" />
+                                    </g>
+                                    <circle cx="33" cy="17" r="4" transform="rotate(-4.53763 17.6076 17.4347)"
+                                        fill="#5383FB" />
+                                    <g filter="url(#filter1_f)">
+                                        <circle cx="33" cy="17" r="7.5" transform="rotate(-4.53763 17.6078 17.4348)"
+                                            stroke="white" />
+                                    </g>
+                                    <circle cx="33" cy="17" r="7.75" transform="rotate(-4.53763 17.6078 17.4348)"
+                                        stroke="#5383FB" stroke-width="0.5" />
+                                    <line x1="30.2303" y1="23.0973" x2="0.688167" y2="93.0337" stroke="#5383FB"
+                                        stroke-width="0.5" />
+                                    <defs>
+                                        <filter id="filter0_f" x="16" y="0" width="34" height="34"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                        </filter>
+                                        <filter id="filter1_f" x="21" y="5" width="24" height="24"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="benifits-col_left_bottom">
+                                <svg width="94" height="84" viewBox="0 0 94 84" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f)">
+                                        <circle cx="70.7465" cy="64.4865" r="5"
+                                            transform="rotate(118.114 70.7465 64.4865)" fill="#98DCF4" />
+                                    </g>
+                                    <circle cx="70.7462" cy="64.4864" r="4" transform="rotate(118.114 70.7462 64.4864)"
+                                        fill="#5383FB" />
+                                    <g filter="url(#filter1_f)">
+                                        <circle cx="70.7463" cy="64.4864" r="7.5"
+                                            transform="rotate(118.114 70.7463 64.4864)" stroke="white" />
+                                    </g>
+                                    <circle cx="70.7463" cy="64.4864" r="7.75"
+                                        transform="rotate(118.114 70.7463 64.4864)" stroke="#5383FB"
+                                        stroke-width="0.5" />
+                                    <line x1="66.6738" y1="59.17" x2="18.9104" y2="0.157253" stroke="#5383FB"
+                                        stroke-width="0.5" />
+                                    <defs>
+                                        <filter id="filter0_f" x="51.9805" y="45.7202" width="37.5324" height="37.5324"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                        </filter>
+                                        <filter id="filter1_f" x="55.9199" y="49.6606" width="29.6519" height="29.6519"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                result="shape" />
+                                            <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                                <div class="benifits-content__text">
+                                    Вывод на карту от 35%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="benifits-right">
+                    <div class="benifits-rigth__inner">
+                        <div class="benifits-col_right">
+                            <img src="images/shape.png" class="magic-shape magic-shape_right" alt="">
+                            <div class="benifits-content">
+                                <div class="benifits-text_top">
+                                    <div class="benifits-content__text">
+                                        Продажа 1%
+                                    </div>
+                                    <svg class="line-small" width="50" height="94" viewBox="0 0 50 94" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_f)">
+                                            <circle cx="33" cy="17" r="5" fill="#98DCF4" />
+                                        </g>
+                                        <circle cx="33" cy="17" r="4" fill="#1CACDF" />
+                                        <g filter="url(#filter1_f)">
+                                            <circle cx="33" cy="17" r="7.5" stroke="white" />
+                                        </g>
+                                        <circle cx="33" cy="17" r="7.75" stroke="#1CACDF" stroke-width="0.5" />
+                                        <line x1="30.2303" y1="23.0973" x2="0.688167" y2="93.0337" stroke="#1CACDF"
+                                            stroke-width="0.5" />
+                                        <defs>
+                                            <filter id="filter0_f" x="16" y="0" width="34" height="34"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                            </filter>
+                                            <filter id="filter1_f" x="21" y="5" width="24" height="24"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="benifits-content_middle">
+                                    <div class="benifits-content__text">
+                                        Покупка 1%
+                                    </div>
+                                    <svg width="192" height="154" viewBox="0 0 192 154" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+
+                                        <g filter="url(#filter1_f)">
+                                            <circle cx="98.8346" cy="66.662" r="5"
+                                                transform="rotate(-44 98.8346 66.662)" fill="#98DCF4" />
+                                        </g>
+                                        <circle cx="98.8347" cy="66.6617" r="4" transform="rotate(-44 98.8347 66.6617)"
+                                            fill="#1CACDF" />
+                                        <g filter="url(#filter2_f)">
+                                            <circle cx="98.8344" cy="66.6618" r="7.5"
+                                                transform="rotate(-44 98.8344 66.6618)" stroke="white" />
+                                        </g>
+                                        <circle cx="98.8344" cy="66.6618" r="7.75"
+                                            transform="rotate(-44 98.8344 66.6618)" stroke="#1CACDF"
+                                            stroke-width="0.5" />
+                                        <line x1="106.15" y1="71.7997" x2="191.092" y2="135.276" stroke="#1CACDF"
+                                            stroke-width="0.5" />
+                                        <defs>
+                                            <filter id="filter0_f" x="0" y="0" width="162" height="77"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="17" result="effect1_foregroundBlur" />
+                                            </filter>
+                                            <filter id="filter1_f" x="81.835" y="49.6621" width="34" height="34"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                            </filter>
+                                            <filter id="filter2_f" x="86.834" y="54.6616" width="24" height="24"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="benifits-text_bottom">
+                                    <svg class="line-small" width="70" height="103" viewBox="0 0 70 103" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_f)">
+                                            <circle cx="36.6628" cy="83.6121" r="5"
+                                                transform="rotate(157.319 36.6628 83.6121)" fill="#98DCF4" />
+                                        </g>
+                                        <circle cx="36.6624" cy="83.612" r="4"
+                                            transform="rotate(157.319 36.6624 83.612)" fill="#1CACDF" />
+                                        <g filter="url(#filter1_f)">
+                                            <circle cx="36.6628" cy="83.6122" r="7.5"
+                                                transform="rotate(157.319 36.6628 83.6122)" stroke="white" />
+                                        </g>
+                                        <circle cx="36.6628" cy="83.6122" r="7.75"
+                                            transform="rotate(157.319 36.6628 83.6122)" stroke="#1CACDF"
+                                            stroke-width="0.5" />
+                                        <line x1="36.8672" y1="76.9185" x2="37.157" y2="0.99903" stroke="#1CACDF"
+                                            stroke-width="0.5" />
+                                        <defs>
+                                            <filter id="filter0_f" x="18.1211" y="65.0708" width="37.0827"
+                                                height="37.0827" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur" />
+                                            </filter>
+                                            <filter id="filter1_f" x="22.1963" y="69.146" width="28.9323"
+                                                height="28.9323" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    <div class="benifits-content__text">
+                                        Вывод на карту 10%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="images/mag-whithout.png" class="mag-right" alt="">
+                    </div>
+
+                    <div class="benifits-text benifits-text__bottom text">тут нам нужен небольшой абзац текста, строчки
+                        на 4. тут нам нужен
+                        небольшой абзац текста, строчки на
+                        4.тут нам нужен небольшой абзац текста, строчки на 4.тут нам</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="leaders">
+        <div class="container">
+            <div class="leaders-inner leaders-inner_top">
+                <div class="leaders-inner__head">
+                    <div class="leaders-inner__col">
+                        <div class="suptitle leaders-inner__suptitle">Лидеры роста</div>
+                        <a href="#" class="leaders-img">
+                            <img src="images/csgo.png" alt="CSGO">
+                        </a>
+                    </div>
+                    <a href="#" class="leaders-inner__col leaders-link select-color_text">Смотреть все</a>
+                </div>
+                <div class="leaders-box">
+                    <div class="product-box">
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="leaders-inner leaders-inner_bottom">
+                <div class="leaders-inner__head">
+                    <div class="leaders-inner__col">
+                        <div class="suptitle leaders-inner__suptitle">Лидеры роста</div>
+                        <a href="#" class="leaders-img">
+                            <img src="images/dota.png" alt="DOTA 2">
+                        </a>
+                    </div>
+                    <a href="#" class="leaders-inner__col leaders-link select-color_text">Смотреть все</a>
+                </div>
+                <div class="leaders-box">
+                    <div class="product-box">
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                        <div class="card">
+                            <div class="card-box">
+                                <a href="#" class="card-img">
+                                    <img src="images/product-ak.png" alt="ak-47">
+                                </a>
+                                <div class="card-bottom">
+                                    <div class="card-info">
+                                        <a href="#" class="card-name">Doppler Sapphire</a>
+                                        <div class="card-price price"><span>От</span> 12 345 р</div>
+                                    </div>
+                                    <div class="card-persent">
+                                        +2.5%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="shop.html" class="card-add select-btn">
+                                В магазин
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <img src="images/logo-big.png" alt="SafGames">
+                    </a>
+                    <div class="footer-info">
+                        <div class="footer-copy">
+                            &copy; 2021 all rights reserved
+                        </div>
+                        <div class="footer-payment">
+                            <img src="images/visa-logo.svg" alt="VISA">
+                            <img src="images/mastercard-logo.svg" alt="Mastercard">
+                            <img src="images/mir-logo.svg" alt="Mir">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="footer-col footer-col_rigth">
+                    <span>Design by:</span>
+                    <img src="images/logo-design.png" alt="FoxDesign" class="logo-disign">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <form id="register-form" class="mfp-hide enter-popup white-popup-block">
+        <h1 class="block-popup__heading">Регистрация</h1>
+
+        <input type="email" class="form-input" placeholder="E-mail">
+        <input type="password" class="form-input" placeholder="Пароль">
+        <input type="password" class="form-input" placeholder="Повторите пароль">
+        <input type="submit" class="form-btn select-btn" value="Зарегистрироваться">
+        <a href="#" class="login-whithSteam flex-center">
+            <img src="images/steam-logo.png" alt="steam">
+            <span>Войти через steam</span>
+        </a>
+        <div class="login popup-text">
+            Уже есть аккаунт?
+            <a href="#login-form" class="login-link select-color_text">
+                Войти
+            </a>
+        </div>
+    </form>
+    <form id="login-form" class="enter-popup mfp-hide login">
+        <h1 class="block-popup__heading">Вход</h1>
+        <input type="email" class="form-input" placeholder="E-mail">
+        <input type="password" class="form-input" placeholder="Пароль">
+        <input type="submit" class="form-btn select-btn" value="Войти">
+        <a href="#" class="login-whithSteam flex-center">
+            <img src="images/steam-logo.png" alt="steam">
+            <span>Войти через steam</span>
+        </a>
+        <div class="form-bottom popup-text">
+            <a href="#recover-password" class="recover-password">Забыли пароль?</a>
+            <a href="#register-form" class="register-link select-color_text">
+                Регистрация
+            </a>
+        </div>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafGames</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-left flex-center">
+                    <button class="menu-btn">
+                        <img src="images/switcher-btn.svg" alt="menu">
+                    </button>
+                    <a href="index.html" class="logo">
+                        <picture class="logo-image">
+                            <source srcset="images/logo-mobile.png" media="(max-width: 1024px)">
+                            <img src="images/logo.png" alt="SafGames"
+                                srcset="images/logo@2x.png 2x, images/logo@3x.png 3x">
+                        </picture>
+                    </a>
+                </div>
+                <div class="navigation">
+                    <div class="navigation-inner flex-center">
+                        <ul class="menu flex-center">
+                            <li class="menu-list">
+                                <a href="shop-skins.html" class="menu-link">Магазин</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="#" class="menu-link">Продать</a>
+                            </li>
+                            <li class="menu-list">
+                                <a href="FAQ.html" class="menu-link">FAQ</a>
+                            </li>
+                        </ul>
+                        <div class="switcher-lang">
+                            <img src="images/lang-ru.svg" alt="">
+                        </div>
+                    </div>
+                    <a href="#" class="login-user flex-center">
+                        <img src="images/user.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="bg-img"></div>
+    <div class="container">
+        <div class="content account edit-page">
+            <div class="aside account-aside">
+                <div class="content-heading flex-center">
+                    <img src="images/steam-logo.png" alt="steam">
+                    Mой steam
+                </div>
+                <div class="account-aside-text content-text text-color">
+                    Войдите через steam, чтобы...надо бы написать,
+                    чтобы что)
+                </div>
+                <a href="account-steam.html" class="login-whithSteam flex-center">
+                    <img src="images/steam-logo.png" alt="steam">
+                    <span>Войти через steam</span>
+                </a>
+            </div>
+            <div class="account-inner">
+                <div class="account-edit flex-center head-center">
+                    <div class="supheading">
+                        Настройки аккаунта
+                    </div>
+                </div>
+
+                <form action="" class="form-edit">
+                    <div class="edit-box">
+                        <div class="edit-title content-heading">Фото профиля</div>
+                        <div class="edit-content">
+                            <!-- <form action="/upload-target" class="dropzone">
+                                </form>  -->
+                            <div class="user-img user-preview">
+                                <div class="add">+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edit-box">
+                        <div class="edit-title content-heading">Личные данные</div>
+                        <div class="edit-content  flex-center">
+                            <div class="form-box">
+                                <label class="label edit-label text-color" for="login">Логин</label>
+                                <input type="text" id="login" class="input input_width" placeholder="_LegenDa_">
+                            </div>
+                            <div class="form-box">
+                                <label class="label edit-label text-color" for="email">E-mail</label>
+                                <input type="email" id="email" class="input input_width"
+                                    placeholder="antoshkina1991@mail.ru">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edit-box">
+                        <div class="edit-title content-heading">Безопасность</div>
+                        <div class="edit-content flex-center">
+                            <div class="form-box">
+                                <label class="label edit-label text-color" for="oldPassword">Старый пароль</label>
+                                <input type="password" id="login" class="input input_width"
+                                    placeholder="Введите пароль">
+                            </div>
+                            <div class="form-box">
+                                <label class="label edit-label text-color" for="password">Новый пароль</label>
+                                <input type="password" id="password" class="input input_width"
+                                    placeholder="Введите пароль">
+                            </div>
+                            <div class="form-box">
+                                <label class="label edit-label text-color" for="repeatPassword">Повторите новый
+                                    пароль</label>
+                                <input type="password" id="repeatPassword" class="input input_width"
+                                    placeholder="Введите пароль">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="select-btn" value="Cохранить">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <img src="images/logo-big.png" alt="SafGames">
+                    </a>
+                    <div class="footer-info">
+                        <div class="footer-copy">
+                            &copy; 2021 all rights reserved
+                        </div>
+                        <div class="footer-payment">
+                            <img src="images/visa-logo.svg" alt="VISA">
+                            <img src="images/mastercard-logo.svg" alt="Mastercard">
+                            <img src="images/mir-logo.svg" alt="Mir">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="footer-col footer-col_rigth">
+                    <span>Design by:</span>
+                    <img src="images/logo-design.png" alt="FoxDesign" class="logo-disign">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.8.1/min/dropzone.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
