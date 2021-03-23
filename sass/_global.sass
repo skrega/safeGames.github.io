@@ -1,0 +1,346 @@
+*,
+*::before,
+*::after
+    box-sizing: border-box
+
+*
+    margin: 0
+    padding: 0
+body
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    color: #fff
+    font-size: 18px
+    line-height: 21px
+    background-color: #1F1E25
+    position: relative
+    overflow-x: hidden
+
+button, input, optgroup, select, textarea
+    line-height: inherit
+
+h1,
+h2,
+h3,
+h4,
+h5
+    margin: 0
+    padding: 0
+
+p
+    margin: 0
+    padding: 0
+ul
+    margin: 0
+    padding: 0
+li
+    list-style: none
+
+a
+    text-decoration: none
+    color: inherit
+    display: inline-block
+    outline: none
+
+    &:focus
+        outline: none
+select
+    outline: none
+button
+    cursor: pointer
+    outline: none
+    border: none
+    background-color: transparent
+    padding: 0
+    margin: 0
+input
+    border: none
+    outline: none
+    padding: 0
+
+.container
+    max-width: 1200px
+    padding: 0 15px
+    width: 100%
+    margin: 0 auto
+.flex-center
+    display: flex
+    align-items: center
+.success-btn
+    background-color: #5A8D2C
+    border-radius: 7px
+    font-weight: 500
+.supheading
+    font-weight: 500
+    font-size: 30px
+    line-height: 35px
+.heading
+    font-weight: 500
+    font-size: 50px
+    line-height: 76px
+
+.content-heading
+    font-size: 20px
+    line-height: 23px
+
+.content-heading-popup
+    font-size: 20px
+    line-height: 23px
+    letter-spacing: 0.1px
+
+.text
+    font-size: 18px
+    line-height: 29px
+    color: #7D7D7D
+
+.text_small
+    font-size: 15px
+    line-height: 22px
+
+.text-content
+    font-size: 16px
+    line-height: 19px
+.text-color
+    color: #7D7D7D
+
+.price_color
+    color: #F69E1E
+.hover_text
+    transition: all .3s
+    &:hover
+        color: $selectColor
+.select-btn
+    font-weight: 500
+    font-size: 20px
+    line-height: 23px
+    padding: 18px 101px 19px
+    background-color: $selectColor
+    border-radius: 7px
+    color: #fff
+    transition: all .3s
+    &:hover
+        background-color: #574B9C
+
+.select-color_text
+    color: $selectColorText
+.btn
+    color: #fff
+    text-align: center
+    padding: 14px 10px 15px
+    background-color: $selectColor
+    border-radius: 7px
+    transition: all .3s
+    &:hover
+        background-color: #574B9C
+.strait-btn
+    padding: 9px 51px 10px 52px
+.button
+    background: linear-gradient(0deg, rgba(3, 5, 6, 0.5) 0%, rgba(4, 6, 8, 0) 100%), rgba(46, 40, 89, 0.5)
+    border-radius: 7px
+    border: 1px solid transparent
+    padding: 19px 10px 20px
+    text-align: center
+    cursor: pointer
+    transition: all .3s
+    &:hover
+        color: #fff
+        border: 1px solid $selectColor
+        background: rgba(118,104,203,0.3)
+.margin_b
+    margin-bottom: 30px
+.margin_t
+    margin-top: 30px
+.content
+    padding-top: 130px
+.error-text
+    color: #FE2B2B
+.success-text
+    color: #5EB80D
+.bg-img
+    background-image: url(../images/bg.png)
+    background-size: cover
+    background-repeat: no-repeat
+    mix-blend-mode: lighten
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: -1
+
+//card start
+
+.product
+    width: 100%
+    min-height: 318px
+    height: 100%
+.card
+    position: relative
+    width: 270px
+    height: 318px
+    border-radius: 10px
+    background-image: url(../images/card-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    &:hover
+        border-radius: 10px 10px 0px 0px
+        .card-add
+            display: block
+            z-index: 2
+    &-box
+        position: relative
+        z-index: 1
+        text-align: center
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        width: 100%
+    &-img
+        width: 194px
+        height: 145px
+        margin: 0 auto
+        img
+            width: 100%
+            height: 100%
+    &-info
+        text-align: left
+    &-bottom
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0px 30px 10px 25px
+    &-suptitle
+        font-size: 15px
+        line-height: 18px
+        letter-spacing: 0.1px
+        color: $textColor
+    &-price
+        margin-top: 10px
+        font-size: 20px
+        line-height: 23px
+        letter-spacing: 0.1px
+        text-align: left
+    &-persent
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        font-weight: 500
+        font-size: 13px
+        line-height: 15px
+        letter-spacing: 0.1px
+        background: linear-gradient(233.13deg, #9CD662 17.14%, #5A8D2C 81.43%), #82BA4D
+        width: 50px
+        height: 50px
+        border-radius: 50%
+        z-index: 2
+        &::before
+            position: absolute
+            content: ""
+            width: 80px
+            height: 80px
+            border-radius: 50%
+            background: linear-gradient(233.13deg, #9CD662 17.14%, #5A8D2C 81.43%), #82BA4D
+            opacity: 0.2
+            z-index: -1
+    &-add
+        position: absolute
+        bottom: -56px
+        text-align: center
+        padding: 18px 40px 19px
+        left: 0
+        width: 100%
+        border-radius: 0px 0px 7px 7px
+        background-color: #7668CB
+        display: none
+
+    &-btn
+        width: 100%
+        border-radius: 0px 0px 7px 7px
+        padding: 18px 40px 19px
+
+.cart-box
+    position: absolute
+    width: 130px
+    height: 130px
+    background: rgba(255, 255, 255, 0.2)
+    backdrop-filter: blur(10px)
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 10
+.succes-btn
+    background-color: $green
+
+.card.add
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .card-box
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            border-radius: 7px
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            height: 318px
+            background: rgba(90, 141, 44, 0.3)
+        &:hover::before
+            border-radius: 7px 7px 0 0
+
+.catalog-card
+    width: 100%
+    height: 100%
+
+//card end
+//account-card start
+.account-card-img
+    width: 100%
+    height: 168px
+    position: relative
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        left: 0
+        top: -3px
+        border-radius: 9px 9px 0 0
+.card-inner
+    padding: 20px
+.card-content
+    justify-content: space-between
+.card-text
+    line-height: 27px
+    letter-spacing: 0.1px
+    margin-bottom: 15px
+.card-account
+    width: 100%
+    height: 100%
+.card-account-price
+    color: #F69E1E
+
+//account-card end
+.background
+    background-color: #000
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    width: 100%
+    z-index: -1
+    opacity: 0
+    &.open
+        opacity: 0.3
+        z-index: 9
+
+.order-table::-webkit-scrollbar,
+.leaders-box::-webkit-scrollbar
+    width: 0px
+    background: transparent

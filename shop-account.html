@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
         integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -113,7 +114,7 @@
                                 <div class="filter-heading">
                                     Цена
                                 </div>
-                                <input type="range" class="js-range-slider" name="my_range" value="">
+                                <input type="text" class="js-range-slider" name="my_range" value="">
                             </div>
                             <div class="filter-box">
                                 <div class="filter-head flex-center open">
@@ -193,7 +194,7 @@
                             <div class="filter-btn">
                                 <img src="images/icons/filter.svg" alt="">
                             </div>
-                            <div class="search flex-center">
+                            <div class="search filter-seatch flex-center">
                                 <div class="search-btn">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -202,7 +203,7 @@
                                             fill="white" />
                                     </svg>
                                 </div>
-                                <input type="text" placeholder="Поиск" class="search-input">
+                                <input type="text" placeholder="Поиск" class="search-input filter-seatch__input">
                             </div>
                             <select id="select-price" class="select">
                                 <option disabled>По цене</option>
@@ -215,7 +216,6 @@
                                 <option value="2">по популярности</option>
                             </select>
                         </div>
-
                         <div class="cart">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -453,7 +453,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
         integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
         crossorigin="anonymous"></script>
-    <script src="libs/rangeslider/ion.rangeSlider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

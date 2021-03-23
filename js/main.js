@@ -309,4 +309,5 @@ $(function (){
 	//   }
 
 	//dropzone
+	new WOW().init();
 })
